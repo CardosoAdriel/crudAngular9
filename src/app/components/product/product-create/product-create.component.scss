@@ -1,0 +1,17 @@
+.content-create {
+    padding-top: 40px;
+    .form-create {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        margin: 10px 15px 0px 0px;
+        cursor: pointer;
+    }
+
+    .btnSalvar:disabled {
+        background-color: gray;
+        color: white;
+    }
+}

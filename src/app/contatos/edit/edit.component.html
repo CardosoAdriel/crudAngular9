@@ -1,0 +1,24 @@
+<mat-card class="content-create">
+    <mat-card-title>Cadastro de Contatos</mat-card-title>
+
+    <form class="form-create" [formGroup]="formContato">
+        <mat-form-field>
+            <input matInput placeholder="Nome"
+            [(ngModel)]="contato.nome"
+            name="nome"
+            formControlName="formContatoNome">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input type="tel" matInput placeholder="Telefone"
+            [(ngModel)]="contato.telefone"
+            name="telefone"
+            formControlName="formContatoTelefone">
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button color="primary" (click)="onSubmit()" class="btnSalvar" [disabled]="formContato.invalid">
+        Salvar
+    </button>
+
+</mat-card>

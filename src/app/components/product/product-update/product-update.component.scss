@@ -1,0 +1,20 @@
+.content-create {
+
+    .form-create {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        margin: 10px 15px 0px 0px;
+    }
+
+    .btnAlterar { 
+        background-color: #d9cd26;
+        color: white;
+    }
+
+    .btnAlterar:disabled {
+        background-color: gray;
+    }
+}

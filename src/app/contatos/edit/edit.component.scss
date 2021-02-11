@@ -1,0 +1,38 @@
+// form {
+//     width: 70%;
+//     margin: 10px auto 0;
+//     padding: 20px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-around;
+//     align-items: center;
+
+//     .form-group {
+//         width: 100%;
+//         margin-bottom: 20px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+
+//         label {
+//             width: 20%;
+//         }
+//     }
+// }
+
+.content-create                                                                                                                      {
+    .form-create{
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        margin: 10px 15px 0px 0px;
+        cursor: pointer;
+    }
+
+    .btnSalvar:disabled {
+        background-color: gray;
+        color: white;
+    }
+}

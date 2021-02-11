@@ -1,0 +1,45 @@
+.home {
+    width: 95%;
+    margin: 75px auto 14px;
+
+    .contentMain {
+        width: 100%;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .homeBtn{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-radius: 10%;
+        box-shadow: 0px 0px 5px 0px #ccc;
+        text-decoration: none;
+
+        .icon {
+            width: 100px;
+            height: 100px;
+            color: #444;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .title {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,19 @@
+.content-create {
+
+    .form-create {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        margin: 10px 15px 0px 0px;
+    }
+
+    .btnExcluir {
+        background-color: #e35e6b;
+        color: white;
+    }
+    .btnExcluir:disabled {
+        background-color: gray;
+    }
+}
