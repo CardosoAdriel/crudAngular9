@@ -4,14 +4,14 @@
 
 export const environment = {
   production: false,
-  firebase : {
-    apiKey: "AIzaSyAGdI6IhhEbhiFQZuBlKbgPCPrd7uEHKr4",
-    authDomain: "crudangular-a453b.firebaseapp.com",
-    databaseURL: "https://crudangular-a453b.firebaseio.com",
-    projectId: "crudangular-a453b",
-    storageBucket: "crudangular-a453b.appspot.com",
-    messagingSenderId: "673462276910",
-    appId: "1:673462276910:web:38d3261c2bd07a5ae2a0bf"
+  firebase: {
+    apiKey: process.env.API_KEY,
+    authDomain: process.env.AUTH_DOMAIN,
+    databaseURL: process.env.DATABASE_URL,
+    projectId: process.env.PROJECT_ID,
+    storageBucket: process.env.STORAGE_BUCKET,
+    messagingSenderId: process.env.MESSAGING_SENDER_ID,
+    appId: process.env.APP_ID
   }
 };
 
