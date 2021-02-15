@@ -4,7 +4,7 @@
 /dist
 /tmp
 /out-tsc
-/src/environments/environment.ts
+crudangular9/src/environments/environment.ts
 # Only exists if Bazel was run
 /bazel-out
 
